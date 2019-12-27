@@ -1,0 +1,98 @@
+
+
+.bodyArea{
+    height: 900px;
+    width: 690px;
+    border:2px solid black;
+    margin-left: 650px;
+}
+.heading{
+    font-size: 50px;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+
+}
+.option{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin:20px;
+    float: left;
+}
+#chioceOption{
+    margin-top: 30px;
+}
+.inputText{
+    border: 2px solid black;
+    height: 50px;
+    width: 70px;
+    text-align: center;
+    margin-right: 50px;
+    font-size: 30px;
+    float: left;
+    margin-top: 10px;
+}
+.turn{
+   clear: both;
+   margin-top: 20px;
+   margin-left: 190px;
+}
+
+.submit{
+        height:50px;
+        width: 75px;
+        border: 2px solid black;
+        float: left;
+        text-align: center;
+        color: white;
+        font-size: 15px;
+        background: black;
+        margin-top: 10px;
+        margin-right: 25px;
+}
+.rowOne{
+    clear: left;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 1fr;
+    height:65px;
+    margin: 60px;
+    padding: 2px;
+    margin-top: 150px;
+    padding: 20px;
+    margin-right: 25px;
+}
+.inputBox{
+    border: 2px solid black;
+    height: 90px;
+    width: 100px;
+    text-align: center;
+    font-size: 60px;
+    background: black;
+    color: white;
+}
+.rowTwo{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 1fr;
+    height:65px;
+    margin: 60px;
+    padding: 2px;
+    margin-top: 30px;
+    padding: 20px;
+    margin-right: 25px;
+}
+.rowThree{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 1fr;
+    height:65px;
+    margin: 60px;
+    padding: 2px;
+    margin-top: 30px;
+    padding: 20px;
+    margin-right: 25px;
+}

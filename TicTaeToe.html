@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Caveat&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <div class="bodyArea">
+           <div class="heading"><b>Tic Tae Toe</b></div>
+           <div id="chioceOption">
+                <div class="option">Choose Between X & O</div>
+                <div><input type="text" class="inputText" id="playerOne"></div>
+                <div class="btn"><button class="submit" onclick="selectPlayer()"><b>Submit</b></button></div>     
+           </div>
+           <div class="turn"> 
+               <div class="option">Turn</div>
+               <div id="turnVal" class="option"><H3></H3></div>
+           </div>
+           <div id="board">
+               <div class="rowOne">
+                 <div><input type="text" class="inputBox" id="boxOne" onclick="boxOneCall()"></div>
+                 <div><input type="text" class="inputBox" id="boxTwo" onclick="boxTwoCall()"></div>
+                 <div><input type="text" class="inputBox" id="boxThree" onclick="boxThreeCall()"></div>
+               </div>
+               <div class=rowTwo>
+                    <div><input type="text" class="inputBox" id="boxFour" onclick="boxFourCall()"></div>
+                    <div><input type="text" class="inputBox" id="boxFive" onclick="boxFiveCall()"></div>
+                    <div><input type="text" class="inputBox" id="boxSix" onclick="boxSixCall()"></div>
+               </div>
+               <div class=rowThree>
+                    <div><input type="text" class="inputBox" id="boxSeven" onclick="boxSevenCall()"></div>
+                    <div><input type="text" class="inputBox" id="boxEight" onclick="boxEightCall()"></div>
+                    <div><input type="text" class="inputBox" id="boxNine" onclick="boxNineCall()"></div>
+               </div>
+               </div>
+           </div>
+           
+                
+        
+           
+        </div>
+        <script src="script.js"></script>
+    </body>
+   
+</html>
